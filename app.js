@@ -10,8 +10,10 @@ for (let index = 1; index < 15; index++) {
 
 let array1 = [3, 6, 9, 12, 15];
 
-for (let i = 1; i < array1.length; i += 2) {
-  console.log(array1[i]);
+for (let index = 0; index < array1.length; index ++) {
+  if (array1[index] % 2 == 0) {
+    console.log(array1[index]);
+  }
 }
 
 
